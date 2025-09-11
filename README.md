@@ -48,7 +48,7 @@ Below is a short preview of the simulation (baseline = red dashed line, AI = whi
 
 ![Simulation Preview](figures/preview.gif)
 
-👉 [Watch the full video on GitHub](https://github.com/yourusername/yourrepo/blob/main/simulation_video.mp4)
+👉 [Watch the full video on GitHub](https://github.com/amdjedkh/AI-Driven-Handover-Control-for-Satellites/tree/master/simulation_video.mp4)
 
 ---
 
