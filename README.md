@@ -56,8 +56,8 @@ https://github.com/user-attachments/assets/7001ade3-5152-4b39-a040-6731f16552f1
    git clone https://github.com/yourusername/yourrepo.git
    cd yourrepo
 2. Run the simulation:
-
-python comparison.py
+   ```bash
+   python comparison.py
 
 📝 Notes
 
