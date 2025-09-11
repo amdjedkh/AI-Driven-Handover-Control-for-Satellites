@@ -46,9 +46,7 @@ weighted avg 0.99 0.99 0.99 4000
 ## 🎥 Demo Video
 Below is a short preview of the simulation (baseline = red dashed line, AI = white solid line):
 
-![Simulation Preview](figures/preview.gif)
-
-👉 [Watch the full video on GitHub](https://github.com/amdjedkh/AI-Driven-Handover-Control-for-Satellites/tree/master/simulation_video.MOV)
+https://github.com/user-attachments/assets/7001ade3-5152-4b39-a040-6731f16552f1
 
 ---
 
