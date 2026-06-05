@@ -8,13 +8,6 @@ The goal is to reduce unnecessary handovers and maintain a stronger connection q
 
 ---
 
-## 📂 Project Structure
-- `handover_dataset.csv` — Generated dataset (20,000 steps, 50 satellites).
-- `handover_model.pkl` — Trained Random Forest model + feature list (saved with `joblib`).
-- `comparison.py` — Pygame visualization comparing baseline vs AI.
-- `train_model.py` — Training script for Random Forest classifier.
-- `simulation_video.mp4` — Full demo video (linked below).
-
 ---
 
 ## 📊 Results
