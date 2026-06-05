@@ -53,7 +53,7 @@ while True:
     # Draw ground station
     screen.blit(ground_img, (ground_x, ground_y))
 
-    # Move satellites
+
     centers = []
     for sat in sats:
         sat["x"] += sat["speed"]
@@ -62,12 +62,12 @@ while True:
         screen.blit(sat_img, (sat["x"], sat["y"]))
         centers.append((sat["x"]+25, sat["y"]+25))
 
-    # Find closest satellite
+
     user_center = (ground_x+40, ground_y+40)
     distances = [math.dist(user_center, c) for c in centers]
     closest = distances.index(min(distances))
 
-    # Handover detection
+
     if active_sat is None:
         active_sat = closest
     elif closest != active_sat:
