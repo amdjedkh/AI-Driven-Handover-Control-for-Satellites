@@ -2,24 +2,20 @@ import pygame
 import math
 import sys
 
-# Init
 pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Satellite Handover Simulation")
 
-# Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 SKY = (135, 206, 235)
 
-# Load images (replace with your PNGs)
 sat_img = pygame.image.load("satellite.png")
 sat_img = pygame.transform.scale(sat_img, (50, 50))
 ground_img = pygame.image.load("ground.png")
 ground_img = pygame.transform.scale(ground_img, (80, 80))
 
-# Ground station position
 ground_x, ground_y = WIDTH//2 - 40, HEIGHT - 100
 
 # Satellite positions (moving)
